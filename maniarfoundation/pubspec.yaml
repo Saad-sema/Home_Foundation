@@ -1,0 +1,37 @@
+name: foundation
+description: Food Distribution App
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  mobile_scanner: ^5.1.1
+  qr_flutter: ^4.1.0
+  path_provider: ^2.1.0
+  permission_handler: ^11.3.0
+  pdf: ^3.10.8
+  printing: ^5.11.1
+  share_plus: ^10.0.0
+  excel: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/care_home_logo.png
+    - assets/maniar_logo.png
